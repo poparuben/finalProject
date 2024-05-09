@@ -1,0 +1,730 @@
+
+/*----------FIRST SECTION OF INDEX-----------*/
+.firstBg{
+    background-color: lightblue;
+    height: 100vh;
+    background-image:url("/img/testimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+  
+}
+.sectionOne{
+   
+    display: flex;
+    justify-content: center;
+    height: 100%;
+     align-items: center;
+    width: 1200px;
+     margin-left: auto;
+     margin-right: auto;
+   
+    
+    
+}
+.slider-btn{
+    max-height: 20px;
+}
+
+ .firstSectionCont{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+    
+   
+}
+
+.sidebar{
+   
+    color:white;
+    text-align: center;
+}
+.sidebar h1{
+    font-size: 80px;
+}
+.sidebar h2{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding:5px 0px;
+    margin: 10px 0px;
+}
+@media only screen and (max-width: 600px) {
+    .sidebar h1{
+        font-size:50px;
+    }
+    .sidebar h2{
+        font-size:smaller ;
+    }
+}
+.sidebar p{
+   
+}
+
+/*----------SECOND SECTION-----------*/
+.secondSection{
+    color:black;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titleSection{
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+.titleSection h2{
+    color: #5D8930;
+    padding-left: 10px;
+    letter-spacing: 10px;
+}
+
+.productsGrid{
+display: flex;
+justify-content: space-between;
+margin-left: 10px;
+margin-right: 10px;
+flex-wrap: wrap;
+}
+.productsGrid .productElement{
+
+background-color: #F8F8F8;
+width: 24%;
+border-radius: 20px;
+
+
+}
+.productElement:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5D8930;
+}
+.productElementContainer{
+    padding: 20px;
+    height: -webkit-fill-available;
+    position:relative;
+   
+}
+.productElementContainer .moreinfo{
+    position: absolute;
+    top:30px;
+}
+.productElementImg{
+    width: 100%;
+    border-bottom-style: solid;
+    border-width: 1px;;
+    border-color: #DADADA;
+   
+}
+
+.productElementInfo{
+    text-align: start;
+  
+
+   
+
+}
+.productElementCat{
+    padding: 5px 0px;
+ 
+}
+.productElementName{
+    padding: 5x 0px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+.productElement .price{
+    padding: 5px 0px;
+    color: #5D8930;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .productElement{
+        min-width: 49%;
+        margin:5px 0px;
+    }
+}
+
+/*----------SECOND SECTION-----------*/
+.thirdSection{
+    height: 300px;
+    display: flex;
+}
+.leftBanner{
+    width: 50%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    z-index: 3;
+   
+}
+.rightBanner{
+    width: 50%;
+   position: relative;
+   top: 20px;
+
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+   
+}
+.centerElementsLeftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   height: 100%;
+   max-width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: flex-start;
+
+}
+.centerElementsRightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   height: 100%;
+   max-width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: flex-end;
+
+}
+
+/*----------NEWSLETTER SECTION-----------*/
+.newsletterSection{
+
+display: flex;
+flex-wrap: wrap;
+max-width: 1500px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px 25px;
+}
+.newsletterSection .left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newsletterSection .left img{
+   width: 100%;
+
+}
+@media only screen and (max-width: 600px) {
+
+.newsletterSection .left, .newsletterSection .right{
+    min-width: 100%;
+}
+
+
+}
+.newsletterSection .right a{
+    position: relative;
+    right:5px;
+    top:1.5px;
+}
+
+.newsletterSection .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.newsletterSection .right input{
+    padding: 9.7px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.newsletterSection .right h2,.newsletterSection .right p{
+    margin-bottom: 20px;
+
+}
+
+/*----------FOOTER SECTION-----------*/
+.footerFirstSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .footerFirstSection{
+        flex-direction: column;
+        
+    }
+    .footerFirstSection .colOne, .footerFirstSection .colTwo, .footerFirstSection ,.colThree{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
+footer{
+    
+    background-color: #0A472E;
+    padding:50px 0px;
+  
+    color: white;
+}
+footer .colOne, .colTwo, .colThree{
+width: 30%;
+}
+footer h2{
+margin-bottom: 10px;;
+}
+footer .colTwo li{
+    list-style:none;
+    padding: 5px 0px;
+    
+}
+footer .colTwo a{
+    text-decoration: none;
+    color:white
+}
+footer .colTwo{
+    text-align: center;
+}
+footer .colThree{
+    text-align: end;
+}
+.footerEnd{
+text-align: center;
+padding: 20px 0px;
+
+border-top-style: solid;
+border-width: 10px;
+margin: 0px 30px;
+
+border-width: 1px;
+}
+.footerEnd li:nth-child(3){
+    border-right-style: solid;
+    
+    border-width: 0.5px;
+}
+.footerEnd li{
+    display:inline-block;
+    padding: 5px 20px;
+    border-left-style: solid;
+    
+    border-width: 1px;
+  
+}
+.footerEnd li{
+
+}
+.footerEnd a{
+    text-decoration: none;
+    color:white
+}
+
+.headerSection{
+    height: 400px;
+    background-color: #0A472E;
+    background-image:url("/img/headerimgg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.headerSection h1{
+    font-size: 40px;;
+}
+.pageContainer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactSection{
+  
+    position: relative;
+    top:-80px;
+    
+}
+.contactSection form{
+background: #F8F8F8;
+background-image:url("/img/bg.png");
+background-repeat: no-repeat;
+background-size: cover; 
+border-radius: 20px;
+padding:90px;
+
+}
+.nameSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contactSection input{
+    padding: 9.7px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.contactSection textarea{
+        width: 100%;
+        padding: 9.7px 40px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        resize: vertical;
+}
+.nameSection input{
+    width: 45%;
+    padding: 9.7px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+form h1, form p{
+    padding:10px 0px;
+}
+@media only screen and (max-width: 600px) {
+    .nameSection{
+        flex-direction: column;
+        justify-content: stretch
+        
+    }
+    .nameSection input{
+        width: 100%;
+    }
+    .contactSection form{
+        padding: 0px 25px;
+        
+        }
+   
+}
+
+#form-counter{
+    color: red;
+}
+
+.contactInfo{
+    display: flex;
+    justify-content:space-around;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contactInfo .col{
+    width: 25%;
+    text-align: center;
+
+}
+.contactInfo .col1{
+    border-right-style: solid;
+    
+    border-width: 1px;
+}
+.contactInfo .col2{
+  
+}
+.contactInfo .col3{
+    border-left-style: solid;
+    
+    border-width: 1px;
+}
+iframe{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+.contactInfo{
+    flex-direction: column;
+
+}
+.contactInfo .col{
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
+
+/*----------About us SECTION-----------*/
+
+.twoFlexBoxes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.twoFlexBoxes .col1 , .twoFlexBoxes .col2{
+    width: 50%;
+    text-align: center;
+}
+.twoFlexBoxes .col1{
+    padding-right: 50px;
+}
+.twoFlexBoxes .col2{
+    padding-left: 50px;
+}
+.titleAboutUs{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+
+    .twoFlexBoxes{
+        flex-wrap: wrap;
+    }
+    .twoFlexBoxes .col1, .twoFlexBoxes .col2{
+        flex:100%;
+        padding: 15px 15px;
+    }
+
+}
+
+/*----------SHOP PAGE-----------*/
+
+
+.gridParentForShop{
+    
+   
+    display: flex;
+     
+}
+.gridParentForShop .child1{
+    flex: 30%;
+   
+
+
+}
+
+.shopContainer .sidebarContent{
+
+    background-color: #FAFBFC;
+    position: sticky;   
+    top:200px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    /* padding-top: 40px; */
+    
+}
+.sidebarContent .categorySection, .sidebarContent .priceSection{
+    margin: 30px;
+    background:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-radius: 5px;
+   
+}
+.categorySection h3, .priceSection h3{
+    border-bottom-style:solid ;
+    border-width: 1px;
+    border-color: #DADADA;
+    padding: 13px 15px;
+}
+
+
+
+.gridParentForShop .child1 .categoryList{
+  
+    list-style-type: none;  
+    padding: 5px 0px;
+    top:200px;
+}
+.gridParentForShop ul li a{
+    color: black;
+    text-decoration: none;
+    padding:15px 0px;
+}
+
+
+.gridParentForShop .child1  li{
+    
+   
+    padding:15px 10px;
+    
+
+    
+}
+.slidecontainer input{
+    width: 100%;
+}
+.slidecontainer{
+    padding:15px 10px;
+}
+
+.categoryList li:hover{
+    background-color: #F8F8F8;
+}
+ .simple{
+    background-color: #0A472E;
+    position: sticky;
+    top:0px;
+    padding: 10px 0px;
+    z-index: 9999999999999999999999999999999999999999999999;
+    
+}
+
+.secondSection .customtitleSection{
+
+    padding-top: 0px;
+}
+
+.shopContainer{
+
+    max-width: 1300px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.shopSortSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.shopPageGrid{
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shopPageGrid .productElement{
+    background-color: #FAFBFC;
+}
+.shopPageGrid .productElement{
+    width: 24%;
+    min-width: 177px;
+    margin-bottom:20px;
+}
+@media only screen and (max-width: 1000px) {
+    .gridParentForShop .child1{
+        display: none;
+   
+    }
+}
+
+ 
+/* Dropdown Button */
+.dropbtn {
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-radius:20px;
+  }
+  dropbtn:hover {
+background-color: red;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;  cursor: pointer;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+/*----------TEAM SECTION -----------*/
+
+.teamSection{
+   display: flex;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.teamSection p{
+    margin-top:30px;
+    font-size: larger;
+}
+.teamSection .col{
+    width: 20%;
+    
+}
+.teamSection .col img{
+    width: 100%;
+    border-radius: 100px;
+}
+.teamSectionCont{
+    background-image:url("/img/abbg.jpg");
+background-repeat: no-repeat;
+background-size: cover; 
+padding: 100px 0px;
+}
+.teamSectionCont h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #5D8930;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .teamSection{
+        
+        flex-wrap: wrap;
+    }
+    .teamSection .col{
+        flex:30%;
+        padding:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
